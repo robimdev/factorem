@@ -281,11 +281,6 @@ description: "Robert is involved in many open source communities."
                     <p>Email me at <a class="link-arrow-external" href="mailto:rob@robim.dev</p>
                 </div>
                 <div class="col-md-6 pl-md-4 pl-lg-6">
-                    {% for resources in site.data.community %}
-                    {% for resource in resources.resources %}
-                    <div>
-                        <a class="link-arrow-external mb-2" href="{{ resource.url }}">{{ resource.title }}</a>
-                    </div>
                     {% endfor %}
                     {% endfor %}
 
