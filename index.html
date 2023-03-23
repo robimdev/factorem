@@ -239,16 +239,11 @@ description: "Robert is involved in many open source communities."
             <div class="d-md-flex">
                 <div class="col-md-6 col-lg-5 mb-4 mb-md-0">
                     <div>
-                        <form id="my-form" action="https://formspree.io/f/xbjeaawr" method="POST">
-                            <label>Email:</label>
-                            <input type="email" name="email" />
-                            <label>Message:</label>
-                            <input type="text" name="message" />
-                            <button id="my-form-button">Submit</button>
-                            <p id="my-form-status"></p>
-                        </form>
+                        <script>{% include contact-form.html %}</script>
+                    </div>
 
-                        <script>
+
+                            <script>
                             var form = document.getElementById("my-form");
 
                             async function handleSubmit(event) {
