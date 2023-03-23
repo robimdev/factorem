@@ -252,7 +252,7 @@ function tryGetAvailableSquare() {
 
 setTimeout(startupAvatarLightup, startupDelayMs);
 
-<script>
+
     var form = document.getElementById("my-form");
 
     async function handleSubmit(event) {
@@ -283,4 +283,4 @@ setTimeout(startupAvatarLightup, startupDelayMs);
         });
     }
     form.addEventListener("submit", handleSubmit)
-</script>
+    
